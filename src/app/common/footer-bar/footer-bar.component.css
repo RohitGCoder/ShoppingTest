@@ -1,0 +1,13 @@
+.bar{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    background-color: whitesmoke;
+    box-shadow: black;
+}
+
+.detail{
+    text-align: center;
+}

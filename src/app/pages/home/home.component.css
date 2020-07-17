@@ -1,0 +1,13 @@
+/* .horizontal-scroll {
+    overflow-x: scroll;
+    white-space: nowrap;
+} */
+
+.w3-card-4 {
+    display: grid;
+     grid-template-columns: 1fr auto;
+     grid-column-gap: 10px;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}

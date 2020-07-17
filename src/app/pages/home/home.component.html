@@ -1,0 +1,13 @@
+
+<h1>Shopping</h1>
+<div class="horizontal-scroll">
+    <div class="w3-card-4" *ngFor="let data of items" (click)="onSelect()">
+        <img [src]="data.img_url || 'assets/images/singham.jpeg'" alt="Alps" style="width: 100%;">
+        <div class="w3-container w3-center">
+            <p>{{data.name}}</p>   
+            <p>Price: {{data.price}}</p> 
+            <p>Discount: {{data.discount}}</p> 
+        </div>
+        <button (click)="clickCount()">Add</button>
+    </div>
+</div>
